@@ -3,8 +3,31 @@
     "image": "gcr.io/kaggle${templateOption:accelerator}images/python:${templateOption:imageVariant}",
 
     // Features
-    // "features": {},
+    "features": {
+        //  docs: https://github.com/devcontainers-extra/features/tree/main/src/zsh-plugins   
+        //  "ghcr.io/devcontainers-extra/features/zsh-plugins:0": {}
+         "ghcr.io/devcontainers/features/common-utils:2": {
+            "configureZshAsDefaultShell": true,
+            "upgradePackages": false
+        },
+        "ghcr.io/iterative/features/dvc:1": {}
+    },
+
+    // 👇 Configure tool-specific properties.
+	"customizations": {
+        "extensions": [
+            "ms-python.python",
+            "ms-toolsai.jupyter",
+            "ms-toolsai.vscode-jupyter-cell-tags",
+            "ms-toolsai.jupyter-keymap",
+            "ms-toolsai.jupyter-renderers",
+            "ms-toolsai.jupyter-slideshow"
+        ]
+    },
 
     // 👇 Use 'postCreateCommand' to run commands after the container is created.
 	// "postCreateCommand": "cat colab_requirements.txt"
+    
+    // // Set `remoteUser` to `root` to connect as root instead. More info: https://aka.ms/vscode-remote/containers/non-root.
+	// "remoteUser": "vscode"
 }
