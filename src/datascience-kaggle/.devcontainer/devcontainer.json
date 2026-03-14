@@ -1,0 +1,10 @@
+{
+    "name": "datascience dev env",
+    "image": "gcr.io/kaggle${templateOption:accelerator}images/python:${templateOption:imageVariant}",
+
+    // Features
+    // "features": {},
+
+    // 👇 Use 'postCreateCommand' to run commands after the container is created.
+	// "postCreateCommand": "cat colab_requirements.txt"
+}
