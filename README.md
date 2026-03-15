@@ -3,13 +3,7 @@ Datascience oriented development enviornments using devcontainers.
 
 ## datascience-kaggle
 
-# How to Use
-
-## In VSCode
-
-## CLI
-1. Pull down the template using `devcontainer templates apply -t ghcr.io/NahsiN/devcontainers/color:latest` This will create a folder `.devcontainer` withing your current directory and pull down the template
-2. `devcontainer up`
+Refer to [README.md](./src/datascience-kaggle/README.md)
 
 # Background
 Sometimes I miss the giants that I grew up with; [Matlab](https://www.mathworks.com/products/matlab.html), [Maple](https://www.maplesoft.com/products/Maple/) and [Mathematica](https://www.wolfram.com/mathematica/),
@@ -21,13 +15,8 @@ Despite the pervasiveness of "the cloud" in our daily lives, I belong to the min
 
 
 ## TODO
-- [X] based of Kaggle's docker images tailored to my needs.
-- [X] Same Python environment as used by Kaggle or Google-Colab
-- [X] background story of why this exists. Want something local. Like Google Collab or Kaggle notebooks. Come from matlab, Maple, Mathematics days. Storage is not an issue
-- [X] test cargs
-- [X] History on why I am creating this
-- sagemath devcontainer
-- cocalc look into
+- [ ] sagemath devcontainer
+- [ ] look into cocalc
 
 # References
 - [template-starter](https://github.com/devcontainers/template-starter)
