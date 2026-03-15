@@ -11,7 +11,6 @@ devcontainer features:
 In your project directory, perform the following steps:
 
 ### VSCode, VSCodium, etc.
-- TODO: Publish the template
 - Assuming you've the Dev Containers extension installed, from the command palette select `Dev Containers: Reopen in Container`
 
 ### devcontainers CLI

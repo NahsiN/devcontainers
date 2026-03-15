@@ -15,6 +15,7 @@ Despite the pervasiveness of "the cloud" in our daily lives, I belong to the min
 
 
 ## TODO
+- [ ] Publish the datascience-kaggle template
 - [ ] sagemath devcontainer
 - [ ] look into cocalc
 
