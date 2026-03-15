@@ -23,6 +23,8 @@ check "xgboost" python -c "import xgboost"
 check "lightgbm" python -c "import lightgbm"
 check "pymc" python -c "import pymc"
 
+check "dvc" dvc --version
+check "quarto" quarto --version
 
 # Report result
 reportResults

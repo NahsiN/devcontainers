@@ -1,6 +1,6 @@
 {
     "id": "datascience-kaggle",
-    "version": "1.0.1",
+    "version": "1.2.0",
     "name": "Docker Kaggle Image",
     "description": "A datascience development enviorment based of Kaggle's docker images",
     "documentationURL": "https://github.com/devcontainers/template-starter/tree/main/src/hello",
