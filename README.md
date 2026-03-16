@@ -3,7 +3,7 @@ Datascience oriented development enviornments using devcontainers.
 
 ## datascience-kaggle
 
-Refer to [README.md](./src/datascience-kaggle/README.md)
+Refer to [README.md](./src/datascience-kaggle/README.md) for usage instructions.
 
 # Background
 Sometimes I miss the giants that I grew up with; [Matlab](https://www.mathworks.com/products/matlab.html), [Maple](https://www.maplesoft.com/products/Maple/) and [Mathematica](https://www.wolfram.com/mathematica/),

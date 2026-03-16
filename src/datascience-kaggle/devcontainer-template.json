@@ -8,7 +8,7 @@
     "options": {
         "imageVariant": {
             "type": "string",
-            "description": "image tags: latest, v166, v165, etc. One of the tagged releases from https://github.com/Kaggle/docker-python/releases",
+            "description": "image tags: `latest`, `v166`, `v165`, etc. Tags of [docker-python releases](https://github.com/Kaggle/docker-python/releases)",
             "proposals": [
                 "latest",
                 "v166",
