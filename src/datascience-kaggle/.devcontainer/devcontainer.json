@@ -36,6 +36,5 @@
 	// "postCreateCommand": "cat colab_requirements.txt"
     
     // Set `remoteUser` to `root` to connect as root instead. More info: https://aka.ms/vscode-remote/containers/non-root.
-    // Set to
 	"remoteUser": "vscode"
 }

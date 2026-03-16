@@ -3,7 +3,7 @@
     "version": "1.2.1",
     "name": "Docker Kaggle Image",
     "description": "A datascience development enviorment based of Kaggle's docker images",
-    "documentationURL": "https://github.com/devcontainers/template-starter/tree/main/src/hello",
+    "documentationURL": "https://github.com/NahsiN/devcontainers/tree/main/src/datascience-kaggle",
     "licenseURL": "https://github.com/devcontainers/template-starter/blob/main/LICENSE",
     "options": {
         "imageVariant": {
