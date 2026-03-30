@@ -25,6 +25,7 @@ check "pymc" python -c "import pymc"
 
 check "dvc" dvc --version
 check "quarto" quarto --version
+check "claude" claude --version
 
 # Report result
 reportResults

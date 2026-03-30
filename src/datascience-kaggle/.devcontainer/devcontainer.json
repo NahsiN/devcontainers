@@ -13,7 +13,13 @@
         "ghcr.io/iterative/features/dvc:1": {},
         "ghcr.io/rocker-org/devcontainer-features/quarto-cli:1": {
             "version": "latest",
-            "installTinyTex": true}
+            "installTinyTex": true},
+        // uses npm
+        // "ghcr.io/devcontainers-extra/features/claude-code:1": {
+            // "version": "latest"
+        // },  # auto installs the claude code vscode extension    
+        // direct install with syntax highlighting
+        "ghcr.io/stu-bell/devcontainer-features/claude-code:0": {}
     },
 
     // 👇 Configure tool-specific properties.
@@ -27,10 +33,24 @@
                 "ms-toolsai.jupyter-renderers",
                 // does not install properly in devcontainer
                 // "ms-toolsai.jupyter-slideshow",
-                "ms-toolsai.tensorboard"]
+                "ms-toolsai.tensorboard",
+                "anthropic.claude-code"]
         },
         
     },
+    
+    "mounts": [  
+    {  
+      "source": "datascience-kaggle-claude",  
+      "target": "/home/vscode/.claude",  
+      "type": "volume"
+    }
+    ],
+
+    "containerEnv": {
+        "CLAUDE_CONFIG_DIR": "/home/vscode/.claude"
+    },
+
 
     // 👇 Use 'postCreateCommand' to run commands after the container is created.
 	// "postCreateCommand": "cat colab_requirements.txt"

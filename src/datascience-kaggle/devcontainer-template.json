@@ -1,6 +1,6 @@
 {
     "id": "datascience-kaggle",
-    "version": "1.2.2",
+    "version": "1.3.2",
     "name": "Docker Kaggle Image",
     "description": "A datascience development enviorment based of Kaggle's docker images",
     "documentationURL": "https://github.com/NahsiN/devcontainers/tree/main/src/datascience-kaggle",
@@ -11,6 +11,8 @@
             "description": "image tags: `latest`, `v166`, `v165`, etc. Tags of [docker-python releases](https://github.com/Kaggle/docker-python/releases)",
             "proposals": [
                 "latest",
+                "v168",
+                "v167",
                 "v166",
                 "v165",
                 "v164"
