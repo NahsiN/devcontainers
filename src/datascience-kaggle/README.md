@@ -14,6 +14,7 @@ Datascience development enviorment based of Kaggle docker images with the follow
 devcontainer features:
 - `dvc`: data version control
 - `quartro`: for publishing scientific documents
+- `claude`: native install of claude code CLI supporting syntax highlighting
 
 **NOTE**: Kaggle Python images are large
 - cpu ~26GB
