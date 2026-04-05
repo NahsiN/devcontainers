@@ -4,7 +4,10 @@ This file provides guidance to Claude Code (claude.ai/code) when working with co
 
 ## Project Overview
 
-This is a **devcontainers template repository** for data science development environments. Currently contains one template: `datascience-kaggle`, which wraps Kaggle's Python Docker images with additional VS Code extensions and dev tools (DVC, Quarto, Claude Code CLI, Zsh).
+This is a **devcontainers template repository** for data science development environments. Currently contains two templates:
+
+- `datascience-kaggle` — wraps Kaggle's Python Docker images with additional VS Code extensions and dev tools (DVC, Quarto, Claude Code CLI, Zsh)
+- `pymc-marketing` — Bayesian marketing environment based on the pymc-marketing stack (PyMC, PyMC-Extras, PyMC-Marketing, Claude Code CLI)
 
 Templates are published to the GitHub Container Registry via GitHub Actions and consumed via the devcontainers CLI or VS Code Dev Containers extension.
 
