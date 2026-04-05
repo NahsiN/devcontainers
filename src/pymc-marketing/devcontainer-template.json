@@ -1,0 +1,20 @@
+{
+    "id": "pymc-marketing",
+    "version": "0.1.0",
+    "name": "PyMC-Marketing",
+    "description": "A Bayesian marketing devcontainer based on pymc-marketing Dockerfile.",
+    "documentationURL": "https://github.com/NahsiN/devcontainers/tree/main/src/pymc-marketing",
+    "licenseURL": "https://github.com/NahsiN/devcontainers/blob/main/LICENSE",
+    "options": {},
+    "platforms": [
+        "Any"
+    ],
+    "publisher": "NahsiN",
+    "keywords": [
+        "pymc",
+        "pymc-marketing",
+        "marketing",
+        "datascience",
+        "mmm"
+    ]
+}
