@@ -28,8 +28,8 @@
         }
     },
 
-   # the claude code feature is somehow failing on call add_to_user_profiles in install.sh 
-   # see https://github.com/stu-bell/devcontainer-features/blob/main/src/claude-code/install.sh
+    // the claude code feature is somehow failing on call add_to_user_profiles in install.sh 
+    // see https://github.com/stu-bell/devcontainer-features/blob/main/src/claude-code/install.sh
    "postCreateCommand": "echo 'export PATH=\"$HOME/.local/bin:$PATH\"' >> ~/.bashrc",
 
     "mounts": [
