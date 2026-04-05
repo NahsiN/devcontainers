@@ -5,7 +5,7 @@ FROM docker.io/jupyter/base-notebook:python-3.11.6
 
 USER root
 # curl needed for Claude install within devcontainer
-RUN apt-get update && apt-get install -y curl
+RUN apt-get update && apt-get install -y curl git
 USER jovyan
 
 LABEL name="pymc-marketing"
