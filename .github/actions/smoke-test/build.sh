@@ -10,7 +10,7 @@ cp -R "src/${TEMPLATE_ID}" "${SRC_DIR}"
 
 pushd "${SRC_DIR}"
 
-# Configure templates only if `devcontainer-template.json` contains the `options` property.
+# Configure templates only if `deplates only if `devcontainer-template.json` contains the `options` property.
 OPTION_PROPERTY=( $(jq -r '.options' devcontainer-template.json) )
 
 if [ "${OPTION_PROPERTY}" != "" ] && [ "${OPTION_PROPERTY}" != "null" ] ; then  
@@ -47,9 +47,12 @@ if [ -d "${TEST_DIR}" ] ; then
 fi
 
 export DOCKER_BUILDKIT=1
-echo "(*) Installing @devcontainer/cli"
-npm install -g @devcontainers/cli
+echo "Local testing. Skip install of devcontainer CLI"
+# echo "(*) Installing @devcontainer/cli"
+# npm install -g @devcontainers/cli
 
 echo "Building Dev Container"
 ID_LABEL="test-container=${TEMPLATE_ID}"
+# devcontainer up --build-no-cache --id-label ${ID_LABEL} --workspace-folder "${SRC_DIR}"
 devcontainer up --id-label ${ID_LABEL} --workspace-folder "${SRC_DIR}"
+
